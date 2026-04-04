@@ -8,8 +8,7 @@ A small showcase site for Mica Studio — a handmade ceramics brand based in Slo
 
 ---
 
-!<img width="1908" height="952" alt="image" src="https://github.com/user-attachments/assets/6c6b2dcf-c158-421a-8532-c464e114fd0a" />
-
+<img width="1908" height="952" alt="image" src="https://github.com/user-attachments/assets/6c6b2dcf-c158-421a-8532-c464e114fd0a" />
 
 
 ---
@@ -54,5 +53,3 @@ The contact page uses [EmailJS](https://www.emailjs.com/) to handle form submiss
 - Scroll animations powered by a lightweight custom `ScrollReveal` component
 
 ---
-
-Made with care, like the ceramics themselves.
