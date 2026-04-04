@@ -6,6 +6,7 @@ import {
   EMAILJS_TEMPLATE_ID,
   EMAILJS_PUBLIC_KEY,
 } from '../config/emailjs'
+import ScrollReveal from '../components/ScrollReveal'
 import './Contact.css'
 
 export default function Contact() {
@@ -71,15 +72,15 @@ export default function Contact() {
 
   return (
     <section className="contact-page">
-      <div className="contact-hero">
+      <ScrollReveal className="contact-hero">
         <h2 className="contact-title">Stopite v stik</h2>
         <p className="contact-subtitle">
-          Z veseljem vas bomo slišali. Če imate vprašanje o izdelku, naročilu po meri ali čemerkoli drugem — naša ekipa vam z veseljem pomaga.
+          Če imate vprašanje o izdelku, naročilu po meri ali čemerkoli drugem — z veseljem vam pomagam.
         </p>
-      </div>
+      </ScrollReveal>
 
       <div className="contact-container">
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <ScrollReveal as="form" className="contact-form" onSubmit={handleSubmit}>
           {status && (
             <div className={`contact-status contact-status--${status.type}`}>
               {status.text}
@@ -157,14 +158,9 @@ export default function Contact() {
           >
             {sending ? 'Pošiljanje...' : 'Pošlji sporočilo'}
           </button>
-        </form>
+        </ScrollReveal>
 
-        <aside className="contact-sidebar">
-          <div className="contact-info-card">
-            <h3>Obiščite naš studio</h3>
-            <p>123 Clay Lane<br />Artisan District<br />Portland, OR 97201</p>
-          </div>
-
+        <ScrollReveal as="aside" className="contact-sidebar" delay={0.2}>
           <div className="contact-info-card">
             <h3>Kontaktni podatki</h3>
             <p>
@@ -174,18 +170,12 @@ export default function Contact() {
           </div>
 
           <div className="contact-info-card">
-            <h3>Delovni čas</h3>
+            <h3>Odzivni čas</h3>
             <p>
-              Pon – Pet: 10:00 – 18:00<br />
-              Sobota: 10:00 – 16:00<br />
-              Nedelja: Zaprto
+              Na sporočila se trudim odgovoriti v najkrajšem možnem času, običajno v roku 24 ur.
             </p>
           </div>
-
-          <div className="contact-map-placeholder">
-            <span>Zemljevid kmalu na voljo</span>
-          </div>
-        </aside>
+        </ScrollReveal>
       </div>
     </section>
   )

@@ -1,16 +1,58 @@
-# React + Vite
+# Mica Studio — Handmade Ceramics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=flat&logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat)
 
-Currently, two official plugins are available:
+A small showcase site for Mica Studio — a handmade ceramics brand based in Slovenia. Browse the collections, take a closer look at each piece, and reach out directly through the contact form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+![App Screenshot](https://placehold.co/900x480/e8e0d8/6b5e52?text=Mica+Studio+Screenshot)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> *Replace the image above with an actual screenshot once the site is live.*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Collections
+
+Three curated collections, each with its own character:
+
+| Collection | About |
+|---|---|
+| **STONE** | Textured clay inspired by rock formations — fired at 1245 °C |
+| **NATURE** | Forest-inspired forms with fern and oak motifs |
+| **A-SYMMETRICAL** | Playing with balance — intentionally imperfect |
+
+---
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start local dev server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+---
+
+## Contact Form
+
+The contact page uses [EmailJS](https://www.emailjs.com/) to handle form submissions. You'll need to set up your own EmailJS account and update the config at `src/config/emailjs.js` with your service, template, and public key.
+
+---
+
+## Notes
+
+- All pottery is photographed and described by the artist
+- Site is in Slovenian — content reflects the studio's voice
+- Scroll animations powered by a lightweight custom `ScrollReveal` component
+
+---
+
+Made with care, like the ceramics themselves.
