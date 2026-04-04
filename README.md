@@ -8,9 +8,9 @@ A small showcase site for Mica Studio — a handmade ceramics brand based in Slo
 
 ---
 
-![App Screenshot](https://placehold.co/900x480/e8e0d8/6b5e52?text=Mica+Studio+Screenshot)
+!<img width="1908" height="952" alt="image" src="https://github.com/user-attachments/assets/6c6b2dcf-c158-421a-8532-c464e114fd0a" />
 
-> *Replace the image above with an actual screenshot once the site is live.*
+
 
 ---
 
