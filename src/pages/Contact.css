@@ -176,6 +176,21 @@
   color: #18392b;
 }
 
+.contact-social-card .social-links {
+  margin-top: 14px;
+}
+
+.contact-social-card .social-link {
+  color: #0f5132;
+  font-size: 1rem;
+}
+
+.contact-social-card .social-link:hover {
+  color: #0a5c36;
+  transform: translateX(3px);
+  opacity: 1;
+}
+
 .contact-map-placeholder {
   background: linear-gradient(145deg, #dfeae3 0%, #d2e0d6 100%);
   border-radius: 12px;
