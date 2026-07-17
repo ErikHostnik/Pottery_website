@@ -6,6 +6,28 @@
   margin-top: 70px;
 }
 
+.footer-social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.footer .social-link {
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 50%;
+  color: #dbe7df;
+}
+
+.footer .social-link:hover {
+  color: #9fd4b8;
+  border-color: #9fd4b8;
+  transform: translateY(-2px);
+  opacity: 1;
+}
+
 .footer-copyright {
   margin: 0;
   font-size: 1rem;

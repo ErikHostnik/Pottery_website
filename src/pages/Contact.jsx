@@ -7,6 +7,7 @@ import {
   EMAILJS_PUBLIC_KEY,
 } from '../config/emailjs'
 import ScrollReveal from '../components/ScrollReveal'
+import SocialLinks from '../components/SocialLinks'
 import './Contact.css'
 
 export default function Contact() {
@@ -167,6 +168,11 @@ export default function Contact() {
               <strong>Telefon:</strong> (503) 555-0142<br />
               <strong>E-pošta:</strong> hello@potterystudio.com
             </p>
+          </div>
+
+          <div className="contact-info-card contact-social-card">
+            <h3>Družbena omrežja</h3>
+            <SocialLinks showLabels />
           </div>
 
           <div className="contact-info-card">
