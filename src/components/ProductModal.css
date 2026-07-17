@@ -71,7 +71,7 @@
   height: 50px;
   border-radius: 50%;
   border: none;
-  background-color: rgba(139, 115, 85, 0.8);
+  background-color: rgba(15, 81, 50, 0.8);
   color: #fff;
   font-size: 24px;
   cursor: pointer;
@@ -82,7 +82,7 @@
 }
 
 .modal-nav-btn:hover {
-  background-color: rgba(139, 115, 85, 1);
+  background-color: rgba(15, 81, 50, 1);
 }
 
 .modal-nav-btn.prev {
@@ -204,7 +204,7 @@
 .modal-details h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #2b2b2b;
+  color: #1d2e28;
   font-weight: 600;
   animation: detail-fade-up 0.45s ease both;
   animation-delay: 0.45s;
@@ -212,7 +212,7 @@
 
 .modal-price {
   font-size: 2rem;
-  color: #8b7355;
+  color: #0f5132;
   font-weight: bold;
   margin-bottom: 30px;
   animation: detail-fade-up 0.45s ease both;
@@ -228,13 +228,13 @@
 .modal-section h3 {
   font-size: 1.3rem;
   margin-bottom: 15px;
-  color: #4a4a4a;
+  color: #2f463b;
 }
 
 .modal-description {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #6b6b6b;
+  color: #56695e;
 }
 
 .modal-details-list {
@@ -242,18 +242,18 @@
   padding: 0;
   font-size: 1rem;
   line-height: 2;
-  color: #6b6b6b;
+  color: #56695e;
 }
 
 .modal-details-list strong {
-  color: #2b2b2b;
+  color: #1d2e28;
 }
 
 .modal-inquiry-btn {
   margin-top: auto;
   padding: 15px 30px;
   font-size: 1.1rem;
-  background-color: #8b7355;
+  background-color: #0f5132;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -265,7 +265,7 @@
 }
 
 .modal-inquiry-btn:hover {
-  background-color: #6d5940;
+  background-color: #14452f;
 }
 
 /* ---- Modal entrance animations ---- */

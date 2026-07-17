@@ -9,8 +9,8 @@
   line-height: 1.6;
   font-weight: 400;
 
-  color: #2b2b2b;
-  background-color: #faf8f5;
+  color: #1d2e28;
+  background-color: #f3f7f4;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,7 +22,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #faf8f5;
+  background-color: #f3f7f4;
 }
 
 #root {
@@ -47,20 +47,20 @@ a:hover {
 
 button {
   border-radius: 4px;
-  border: 2px solid #8b7355;
+  border: 2px solid #0f5132;
   padding: 0.8em 1.5em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #8b7355;
+  background-color: #0f5132;
   color: #fff;
   cursor: pointer;
   transition: all 0.3s;
 }
 
 button:hover {
-  background-color: #6d5940;
-  border-color: #6d5940;
+  background-color: #14452f;
+  border-color: #14452f;
 }
 
 img {

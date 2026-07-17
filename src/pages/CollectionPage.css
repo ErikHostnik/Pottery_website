@@ -19,7 +19,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(243, 236, 228, 0.75) 0%, rgba(249, 247, 244, 0.7) 50%, rgba(238, 232, 223, 0.8) 100%);
+  background: linear-gradient(180deg, rgba(233, 241, 236, 0.75) 0%, rgba(244, 248, 245, 0.7) 50%, rgba(227, 236, 230, 0.8) 100%);
   z-index: 1;
   pointer-events: none;
 }
@@ -36,7 +36,7 @@
 
 .collection-page-title {
   font-size: 2.5rem;
-  color: #5a4a3a;
+  color: #18392b;
   margin-bottom: 10px;
   cursor: default;
   letter-spacing: 0.02em;
@@ -53,13 +53,13 @@
 
 @keyframes jump-page-title {
   0% { transform: translateY(0); }
-  40% { transform: translateY(-8px); color: #c4a882; }
+  40% { transform: translateY(-8px); color: #0a5c36; }
   100% { transform: translateY(0); }
 }
 
 .collection-page-description {
   font-size: 1.3rem;
-  color: #25211c;
+  color: #1d2e28;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.5;
@@ -79,14 +79,14 @@
 .back-link {
   display: inline-block;
   margin-bottom: 20px;
-  color: #a0845e;
+  color: #0a5c36;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.2s;
 }
 
 .back-link:hover {
-  color: #7a6340;
+  color: #0f5132;
 }
 
 .collection-not-found {
@@ -96,6 +96,6 @@
 
 .collection-not-found h2 {
   font-size: 1.8rem;
-  color: #5a4a3a;
+  color: #18392b;
   margin-bottom: 20px;
 }

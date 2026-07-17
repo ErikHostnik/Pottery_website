@@ -9,7 +9,7 @@ import CollectionPage from './pages/CollectionPage'
 export default function App() {
   return (
     <BrowserRouter>
-      <div style={{ fontFamily: 'serif', color: '#2b2b2b' }}>
+      <div style={{ fontFamily: 'serif', color: '#1d2e28' }}>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
