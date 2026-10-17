@@ -74,9 +74,9 @@ export default function Contact() {
   return (
     <section className="contact-page">
       <ScrollReveal className="contact-hero">
-        <h2 className="contact-title">Stopite v stik</h2>
+        <h2 className="contact-title">Pišite mi</h2>
         <p className="contact-subtitle">
-          Če imate vprašanje o izdelku, naročilu po meri ali čemerkoli drugem — z veseljem vam pomagam.
+          Za posebne želje, nenavadne ideje in kose, ki jih ne najdete nikjer drugje – pišite mi. Z veseljem jih spremenim v nekaj otipljivega.
         </p>
       </ScrollReveal>
 
@@ -165,8 +165,8 @@ export default function Contact() {
           <div className="contact-info-card">
             <h3>Kontaktni podatki</h3>
             <p>
-              <strong>Telefon:</strong> (503) 555-0142<br />
-              <strong>E-pošta:</strong> hello@potterystudio.com
+              <strong>Telefon:</strong> 051 418 287<br />
+              <strong>E-pošta:</strong> micastudio.pottery@gmail.com
             </p>
           </div>
 

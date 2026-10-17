@@ -103,7 +103,7 @@ export default function ProductModal({ product, onClose }) {
         <div className="modal-details">
           <h2>{product.name}</h2>
 
-          <div className="modal-price">{product.price}</div>
+          {product.price && <div className="modal-price">{product.price}</div>}
 
           <div className="modal-section">
             <h3>Opis</h3>
