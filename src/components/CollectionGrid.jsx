@@ -80,7 +80,6 @@ export default function CollectionGrid() {
                   </div>
                   <div className="collection-info">
                     <h3 className="collection-name">{collection.name}</h3>
-                    <p className="collection-description">{collection.description}</p>
                   </div>
                 </Link>
               ))}
