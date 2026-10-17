@@ -10,7 +10,7 @@
   font-weight: 400;
 
   color: #1d2e28;
-  background-color: #f3f7f4;
+  background-color: #f5efe6;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,7 +22,9 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #f3f7f4;
+  background-color: #f5efe6;
+  background-image: linear-gradient(180deg, #f5efe6 0%, #ede4d6 100%);
+  background-attachment: fixed;
 }
 
 #root {

@@ -1,5 +1,5 @@
 .about-page {
-  background: linear-gradient(180deg, #e9f1ec 0%, #f4f8f5 40%, #e3ece6 100%);
+  background: linear-gradient(180deg, #ece2d3 0%, #f5efe6 40%, #ede4d6 100%);
   min-height: calc(100vh - 160px);
 }
 
@@ -71,12 +71,12 @@
 
 .about-intro-text .about-section {
   margin-bottom: 0;
-  background: linear-gradient(135deg, #f3f7f4 0%, #ecf3ee 100%);
+  background: linear-gradient(135deg, #f5efe6 0%, #efe7db 100%);
   border-left: 3px solid #0a5c36;
 }
 
 .about-section {
-  background: linear-gradient(135deg, #fcfdfc 0%, #eff5f1 100%);
+  background: linear-gradient(135deg, #fcfaf6 0%, #f6f0e7 100%);
   padding: 36px 40px;
   border-radius: 12px;
   box-shadow: 0 2px 16px rgba(15, 81, 50, 0.08);

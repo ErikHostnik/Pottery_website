@@ -1,5 +1,5 @@
 .contact-page {
-  background: linear-gradient(180deg, #e9f1ec 0%, #f4f8f5 40%, #e3ece6 100%);
+  background: linear-gradient(180deg, #ece2d3 0%, #f5efe6 40%, #ede4d6 100%);
   min-height: calc(100vh - 160px);
 }
 
@@ -34,7 +34,7 @@
 /* ---- Form ---- */
 .contact-form {
   flex: 1;
-  background: linear-gradient(135deg, #fcfdfc 0%, #eff5f1 100%);
+  background: linear-gradient(135deg, #fcfaf6 0%, #f6f0e7 100%);
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 2px 16px rgba(15, 81, 50, 0.08);
@@ -61,7 +61,7 @@
   font-family: inherit;
   border: 1px solid #c6d5cb;
   border-radius: 8px;
-  background-color: #fbfdfc;
+  background-color: #fdfbf8;
   color: #1d2e28;
   transition: border-color 0.2s, box-shadow 0.2s;
   box-sizing: border-box;
@@ -133,7 +133,7 @@
 }
 
 .contact-info-card {
-  background: linear-gradient(135deg, #fcfdfc 0%, #eff5f1 100%);
+  background: linear-gradient(135deg, #fcfaf6 0%, #f6f0e7 100%);
   padding: 28px;
   border-radius: 12px;
   box-shadow: 0 2px 16px rgba(15, 81, 50, 0.08);
@@ -192,7 +192,7 @@
 }
 
 .contact-map-placeholder {
-  background: linear-gradient(145deg, #dfeae3 0%, #d2e0d6 100%);
+  background: linear-gradient(145deg, #ebe2d4 0%, #e0d5c4 100%);
   border-radius: 12px;
   height: 180px;
   display: flex;
