@@ -28,9 +28,24 @@
   100% { transform: translateY(0); }
 }
 
+.collection-group + .collection-group {
+  margin-top: 50px;
+}
+
+.collection-group-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #18392b;
+  margin: 0 20px 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(10, 92, 54, 0.2);
+}
+
 .collection-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 30px;
   padding: 0 20px;
 }

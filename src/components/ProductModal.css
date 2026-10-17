@@ -219,34 +219,26 @@
   animation-delay: 0.55s;
 }
 
-.modal-section {
+.modal-stock {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
   margin-bottom: 30px;
   animation: detail-fade-up 0.45s ease both;
   animation-delay: 0.6s;
 }
 
-.modal-section h3 {
-  font-size: 1.3rem;
-  margin-bottom: 15px;
-  color: #2f463b;
+.modal-stock.in-stock {
+  background-color: #dfeae3;
+  color: #0f5132;
 }
 
-.modal-description {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: #56695e;
-}
-
-.modal-details-list {
-  list-style: none;
-  padding: 0;
-  font-size: 1rem;
-  line-height: 2;
-  color: #56695e;
-}
-
-.modal-details-list strong {
-  color: #1d2e28;
+.modal-stock.out-of-stock {
+  background-color: #f1e4e1;
+  color: #8a3b2e;
 }
 
 .modal-inquiry-btn {

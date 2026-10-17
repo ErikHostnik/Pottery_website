@@ -103,24 +103,11 @@ export default function ProductModal({ product, onClose }) {
         <div className="modal-details">
           <h2>{product.name}</h2>
 
-          {product.price && <div className="modal-price">{product.price}</div>}
+          <div className="modal-price">{product.price || 'Cena: N/A'}</div>
 
-          <div className="modal-section">
-            <h3>Opis</h3>
-            <p className="modal-description">
-              {product.description || 'Ta čudovit ročno izdelan keramični kos je narejen z ljubeznijo in skrbnostjo. Vsak izdelek je edinstven in odraža mojstrovo spretnost ter pozornost do detajlov. Popoln za pridih elegance v vašem domu.'}
-            </p>
-          </div>
-
-          <div className="modal-section">
-            <h3>Podrobnosti</h3>
-            <ul className="modal-details-list">
-              <li><strong>Material:</strong> {product.material || 'Keramika/kamenina'}</li>
-              <li><strong>Površina:</strong> {product.finish || 'Glazirana'}</li>
-              <li><strong>Vzdrževanje:</strong> {product.care || 'Priporočamo ročno pranje'}</li>
-              <li><strong>Izdelava:</strong> {product.madeIn || 'Ročno izdelano z ljubeznijo'}</li>
-            </ul>
-          </div>
+          <p className={`modal-stock ${product.inStock ? 'in-stock' : 'out-of-stock'}`}>
+            {product.inStock ? 'Na zalogi' : 'Ni na zalogi'}
+          </p>
 
           <button
             className="modal-inquiry-btn"
