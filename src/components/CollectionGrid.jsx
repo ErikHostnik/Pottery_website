@@ -3,6 +3,17 @@ import { Link } from 'react-router-dom'
 import { collections } from '../data/products'
 import './CollectionGrid.css'
 
+// Sections in order of first appearance; `index` keeps the reveal stagger global
+const groupedCollections = collections.reduce((groups, collection, index) => {
+  let section = groups.find((g) => g.group === collection.group)
+  if (!section) {
+    section = { group: collection.group, items: [] }
+    groups.push(section)
+  }
+  section.items.push({ collection, index })
+  return groups
+}, [])
+
 export default function CollectionGrid() {
   const [revealed, setRevealed] = useState(false)
   const gridRef = useRef(null)
@@ -48,26 +59,33 @@ export default function CollectionGrid() {
           </span>
         ))}
       </h2>
-      <div ref={gridRef} className="collection-grid">
-        {collections.map((collection, index) => (
-          <Link
-            key={collection.id}
-            to={`/collection/${collection.id}`}
-            className={`collection-card ${revealed ? '' : 'card-hidden'}`}
-            style={{ transitionDelay: revealed ? `${index * 0.15}s` : '0s' }}
-          >
-            <div className="collection-image-container">
-              <img
-                src={collection.image}
-                alt={collection.name}
-                className="collection-image"
-              />
+      <div ref={gridRef}>
+        {groupedCollections.map(({ group, items }) => (
+          <div key={group} className="collection-group">
+            <h3 className="collection-group-title">{group}</h3>
+            <div className="collection-grid">
+              {items.map(({ collection, index }) => (
+                <Link
+                  key={collection.id}
+                  to={`/collection/${collection.id}`}
+                  className={`collection-card ${revealed ? '' : 'card-hidden'}`}
+                  style={{ transitionDelay: revealed ? `${index * 0.15}s` : '0s' }}
+                >
+                  <div className="collection-image-container">
+                    <img
+                      src={collection.image}
+                      alt={collection.name}
+                      className="collection-image"
+                    />
+                  </div>
+                  <div className="collection-info">
+                    <h3 className="collection-name">{collection.name}</h3>
+                    <p className="collection-description">{collection.description}</p>
+                  </div>
+                </Link>
+              ))}
             </div>
-            <div className="collection-info">
-              <h3 className="collection-name">{collection.name}</h3>
-              <p className="collection-description">{collection.description}</p>
-            </div>
-          </Link>
+          </div>
         ))}
       </div>
     </section>
